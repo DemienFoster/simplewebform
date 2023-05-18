@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Doc</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="descriprion">Thank you for taking the time to help us improve the platform</p>
+    </header>
+    <div>
+        <form action="" id="survey-form">
+            <fieldset>
+                <label for="name-label">Name</label>
+                <input type="text" name="name" id="name" class="inputfield">
+                <label for="email-label">Email</label>
+                <input type="email" name="email" id="email" class="inputfield">
+                <label for="age-label">Age</label>
+                <input type="age" name="age" id="age" min="13" max="125" class="inputfield">
+            </fieldset>
+            <fieldset>
+                <label for="role">Would you recommend freeCodeCamp to a friend?</label>
+                <select name="" id="role">
+                    <option value="">Select current role</option>
+                    <option value="student">Student</option>
+                    <option value="full-time-job">Full time job</option>
+                    <option value="full-time-leaner">Full time leaner</option>
+                    <option value="prefer-not-to-say">Prefer not to say</option>
+                    <option value="other">Other</option>
+                </select>                
+            </fieldset>
+            <fieldset>
+                <p>Would you recommend freeCodeCamp to a friend?</p>
+                <label for="definitely">
+                    <input type="radio" name="rec" id="definitely">
+                    Definitely
+                </label>
+                <label for="maybe">
+                    <input type="radio" name="rec" id="maybe">    
+                    Maybe
+                </label>            
+                <label for="not-shure">
+                    <input type="radio" name="rec" id="not-shure">    
+                    Not shure
+                </label>
+            </fieldset>
+            <fieldset>
+                <label for="feature">
+                    <p>What is your favorite feature of freeCodeCamp?</p>
+                    <select name="" id="">
+                        <option value="">Select an option</option>
+                        <option value="chalenges">Chalenges</option>
+                        <option value="projects">Projects</option>
+                        <option value="community">Community</option>
+                        <option value="open-source">Open source</option>                    
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <p>What would you like to see improved? (Check all that apply)</p>
+                <label>
+                    <input type="checkbox">BackEnd Projects
+                </label>
+                <label>
+                    <input type="checkbox">FrontEnd Projects
+                </label>
+            </fieldset>
+            <fieldset>
+                <p>Any comments or suggestions?</p>
+                <textarea name="comment" id="comment"></textarea>
+            </fieldset>
+        </form>
+    </div>      
+</body>
+</html>
